@@ -1,0 +1,18 @@
+body {
+  font-family: $font;
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.wraper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(../images/background.png), lightgray 50% / cover no-repeat;
+  height: 800px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

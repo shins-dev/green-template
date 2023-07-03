@@ -1,0 +1,39 @@
+.text {
+  color: $while-color;
+  &-nav {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-heading {
+    color: $text-primary;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  &-primary {
+    color: $text-sencondary;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  &-smail {
+    color: $text-gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &-green{
+    color: $green-color;
+  }
+}

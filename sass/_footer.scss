@@ -1,0 +1,15 @@
+.footer{
+  background-color: $footer-color;
+}
+
+.footer {
+  &-main{
+
+}
+  &-title{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

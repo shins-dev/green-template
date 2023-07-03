@@ -1,0 +1,32 @@
+.contacts{
+  margin-top: 100px;
+  background-color: #21212D
+}
+
+.contacts {
+  &-main{
+    padding: 16px 0;
+    display:flex;
+    gap: 0 120px;
+    align-items: center;
+}
+  &-logo{
+    width: 180px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}
+  &-address{
+    span{
+      display: block;
+    }
+
+}
+  &-infor{
+    span{
+      display: block;
+    }
+}
+}
