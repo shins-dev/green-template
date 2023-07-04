@@ -8,11 +8,10 @@ body {
 .wraper {
   max-width: 1440px;
   margin: 0 auto;
-  background: url(../images/background.png), lightgray 50% / cover no-repeat;
-  height: 800px;
+  background: url(../images/background.png) center/cover no-repeat;
+  max-height: 800px;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }

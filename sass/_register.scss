@@ -1,6 +1,6 @@
 .register {
   margin-top: 120px;
-  background: url(../images/login-image.png), lightgray 50% / cover no-repeat;
+  background: url(../images/login-image.png) center/cover no-repeat;
 }
 .registers {
   background: rgba(33, 33, 45, 0.6);
@@ -14,8 +14,9 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    a{
+    a {
       color: $green-color;
+      border-bottom: 1px solid $green-color;
     }
   }
 }

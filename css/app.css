@@ -47,14 +47,13 @@ body {
 .wraper {
   max-width: 1440px;
   margin: 0 auto;
-  background: url(../images/background.png), lightgray 50%/cover no-repeat;
-  height: 800px;
+  background: url(../images/background.png) center/cover no-repeat;
+  max-height: 800px;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .text {
@@ -96,13 +95,20 @@ body {
 .text-green {
   color: #1bb71f;
 }
+.text-ellipse {
+  font-size: 14px;
+  text-align: center;
+  color: #1bb71f;
+  font-weight: 500;
+  line-height: 1.7142857143;
+  text-transform: uppercase;
+}
 
 .header {
   background: rgba(51, 51, 69, 0.7);
 }
 
 .header-main {
-  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -258,6 +264,75 @@ body {
   max-width: 430px;
 }
 
+.icofont-mail-box {
+  color: #1bb71f;
+}
+
+.ellipse-img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.ellipse-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.ellipse-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  border-radius: 370px;
+  border: 7px solid #1bb71f;
+  background: #ffffff;
+  opacity: 0.9;
+}
+.ellipse-child {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 3px solid #1bb71f;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+}
+.ellipse-logo {
+  position: absolute;
+  width: 193px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ellipse-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse-top {
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ellipse-left {
+  left: -22px;
+  bottom: 30px;
+}
+.ellipse-right {
+  right: -22px;
+  bottom: 30px;
+}
+
 .products-affter::after {
   content: " ";
   margin-top: 11px;
@@ -322,7 +397,7 @@ body {
 }
 .register {
   margin-top: 120px;
-  background: url(../images/login-image.png), lightgray 50%/cover no-repeat;
+  background: url(../images/login-image.png) center/cover no-repeat;
 }
 
 .registers {
@@ -338,6 +413,7 @@ body {
 }
 .register-title a {
   color: #1bb71f;
+  border-bottom: 1px solid #1bb71f;
 }
 
 .partners {
