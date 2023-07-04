@@ -53,7 +53,7 @@
     &:hover .login {
       color: #460bf8;
     }
-    &:hover .singup {
+    &:hover .singups {
       color: #080402;
     }
   }
@@ -103,3 +103,18 @@
     }
   }
 }
+// @media screen and (max-width: 1439.98px) {
+//   .wraper {
+//     max-width: 1440px;
+//     background: url(../images/background.png) center/cover no-repeat;
+//     margin: 0 auto;
+//   }
+// }
+// @media screen and (min-width: 1440px) {
+//   .wraper {
+//     min-width: 1910px;
+//     background: url(../images/background.png) lightgray 50% / cover no-repeat;;
+//     margin: 0 auto;
+//     min-height: 1000px;
+//   }
+// }

@@ -6,10 +6,10 @@ body {
   line-height: 1;
 }
 .wraper {
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
-  background: url(../images/background.png) center/cover no-repeat;
-  max-height: 800px;
+  background: url(../images/background.png) center / cover no-repeat;
+  height: 900px;
 }
 .container {
   max-width: 1170px;

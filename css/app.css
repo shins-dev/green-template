@@ -45,10 +45,10 @@ body {
 }
 
 .wraper {
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   background: url(../images/background.png) center/cover no-repeat;
-  max-height: 800px;
+  height: 900px;
 }
 
 .container {
@@ -160,7 +160,7 @@ body {
 .header-outhor-resgiter:hover .login {
   color: #460bf8;
 }
-.header-outhor-resgiter:hover .singup {
+.header-outhor-resgiter:hover .singups {
   color: #080402;
 }
 .header-othor-image {
@@ -219,7 +219,7 @@ body {
 }
 
 .abouts {
-  margin-top: 436px;
+  margin-top: 570px;
 }
 .abouts-main {
   display: flex;
@@ -461,6 +461,202 @@ body {
 }
 .contacts-infor span {
   display: block;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(33, 33, 45, 0.7);
+  height: 900px;
+}
+
+.login-main {
+  display: flex;
+  gap: 0 30px;
+}
+.login-signin {
+  max-width: 400px;
+  max-height: 445px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.login-signup {
+  max-width: 400px;
+  max-height: 380px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.login-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-title {
+  margin-top: 13px;
+  margin-bottom: 30px;
+}
+.login-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  margin-bottom: 20px;
+}
+.login-author-firstname {
+  position: relative;
+}
+.login-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-input {
+  width: 100%;
+  max-height: 46px;
+  border: 1px solid #f3f3f3;
+  background: #fff;
+  padding: 15px 5px 15px 45px;
+}
+.login-input-min {
+  max-width: 175px;
+  max-height: 46px;
+}
+.login-input::placeholder {
+  color: rgba(33, 33, 33, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login-email {
+  margin-bottom: 20px;
+}
+.login-phone {
+  margin-bottom: 22px;
+}
+.login-check {
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+  margin-bottom: 30px;
+}
+.login-check-input {
+  width: 20px;
+  height: 20px;
+}
+.login-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 31px;
+}
+.login-prompt a {
+  color: #3e6de4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-login {
+  color: #212121;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text-icon-error {
+  color: #000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 1 0;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text-login-icon {
+  padding: 12px 15px 12px 8px;
+  color: #212121;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text-check {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-a-blue {
+  color: #3e6de4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button-green {
+  padding: 12px 25px;
+  background: #1bb71f;
+}
+.button-green a {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.button-blue {
+  padding: 12px 15px;
+  border-radius: 5px;
+  background: #4867aa;
+}
+.button-blue a {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.signup-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signup-check {
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+}
+.signup-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  gap: 0 20px;
 }
 
 .footer {

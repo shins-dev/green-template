@@ -48,6 +48,31 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ef5e";
 }
 
+.icofont-error:before
+{
+  content: "\ef16";
+}
+
+.icofont-waiter:before
+{
+  content: "\ed0f";
+}
+
+.icofont-team-alt:before
+{
+  content: "\edd1";
+}
+
+.icofont-at:before
+{
+  content: "\eea6";
+}
+
+.icofont-phone-circle:before
+{
+  content: "\efba";
+}
+
 [class^="icofont-"].icofont-duotone,
 	[class*=" icofont-"].icofont-duotone
 {
