@@ -50,12 +50,6 @@
       background-color: transparent;
       opacity: 0;
     }
-    &:hover .login {
-      color: #460bf8;
-    }
-    &:hover .singups {
-      color: #080402;
-    }
   }
   &-othor-image {
     margin-right: 11px;
@@ -103,18 +97,4 @@
     }
   }
 }
-// @media screen and (max-width: 1439.98px) {
-//   .wraper {
-//     max-width: 1440px;
-//     background: url(../images/background.png) center/cover no-repeat;
-//     margin: 0 auto;
-//   }
-// }
-// @media screen and (min-width: 1440px) {
-//   .wraper {
-//     min-width: 1910px;
-//     background: url(../images/background.png) lightgray 50% / cover no-repeat;;
-//     margin: 0 auto;
-//     min-height: 1000px;
-//   }
-// }
+

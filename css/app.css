@@ -157,12 +157,6 @@ body {
   background-color: transparent;
   opacity: 0;
 }
-.header-outhor-resgiter:hover .login {
-  color: #460bf8;
-}
-.header-outhor-resgiter:hover .singups {
-  color: #080402;
-}
 .header-othor-image {
   margin-right: 11px;
 }
@@ -463,17 +457,32 @@ body {
   display: block;
 }
 
+.wraper {
+  position: relative;
+}
+
 .login {
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(33, 33, 45, 0.7);
   height: 900px;
+  position: fixed;
+  will-change: transform;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateX(100%);
+  transition: all 0.2s ease-out;
 }
 
 .login-main {
   display: flex;
   gap: 0 30px;
+}
+.login.is-show {
+  transform: translateX(0);
 }
 .login-signin {
   max-width: 400px;
