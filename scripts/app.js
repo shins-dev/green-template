@@ -1,21 +1,33 @@
 window.addEventListener("load", () => {
   const icofontErrors = document.querySelectorAll(".text-icon-error");
   if (icofontErrors) {
-    icofontErrors.forEach((icofontError) => {
-      icofontError.addEventListener("mouseenter", () => {
-        icofontError.style.fontSize = "32px";
-        icofontError.style.color = "red";
-        icofontError.style.cursor = "pointer";
-        icofontError.style.transition = "color 0.3s ease";
+    icofontErrors.forEach((e) => {
+      e.addEventListener("mouseenter", () => {
+        e.style.fontSize = "32px";
+        e.style.color = "red";
+        e.style.cursor = "pointer";
+        e.style.transition = "color 0.3s ease";
       });
 
-      icofontError.addEventListener("mouseleave", () => {
-        icofontError.style.color = "";
-        icofontError.style.cursor = "";
-        icofontError.style.fontSize = "";
+      e.addEventListener("mouseleave", () => {
+        e.style.color = "";
+        e.style.cursor = "";
+        e.style.fontSize = "";
       });
     });
   }
+  const contactsHover = document.querySelectorAll(".contacts-hover");
+  if (contactsHover) {
+    contactsHover.forEach((e) => {
+      e.addEventListener("mouseenter", () => {
+        e.style.color = "rgb(27,183,31)";
+      });
+      e.addEventListener("mouseleave", () => {
+        e.style.color = "";
+      });
+    });
+  }
+  
   const toggleLogin = document.querySelector(".logins");
   const menuLogin = document.querySelector(".log-in");
   const body = document.querySelector("body");

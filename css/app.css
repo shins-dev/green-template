@@ -196,7 +196,6 @@ body {
   }
   .menu-link:hover {
     color: #1bb71f;
-    font-size: 16px;
   }
   .menu-link:hover::after {
     width: 100%;
@@ -384,9 +383,9 @@ body {
   .products-item:hover span {
     cursor: pointer;
     color: #212121;
-    border-top: 2px solid #1bb71f;
-    border-bottom: 2px solid #1bb71f;
+    transform: scaleY(1);
     transition: all 0.2s linear;
+    box-shadow: 0 -2px #1bb71f, 0 2px #1bb71f;
   }
 }
 .register {

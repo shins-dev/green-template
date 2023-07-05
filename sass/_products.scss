@@ -55,15 +55,15 @@
     object-fit: fill;
   }
 }
-@media (hover: hover) {
+@media (hover:hover) {
   .products-item {
     &:hover {
       span {
         cursor: pointer;
         color: $text-primary;
-        border-top: 2px solid $green-color;
-        border-bottom: 2px solid $green-color;
+        transform: scaleY(1);
         transition: all 0.2s linear;
+        box-shadow: 0 -2px $green-color, 0 2px $green-color;
       }
     }
   }
