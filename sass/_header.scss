@@ -23,16 +23,16 @@
     cursor: pointer;
   }
   &-outhor-resgiter {
+    width: 100%;
     display: flex;
-    align-items: center;
+    gap: 0px 5px;
     background-color: #cd7b1a;
-    padding: 36px 20px;
+    padding: 36px 17px;
     cursor: pointer;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
-    width: 100%;
     z-index: 10;
     border-radius: 3px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -41,7 +41,7 @@
     transition: all 0.2s ease;
     transform: translateY(20px);
     &::after {
-      content: " ";
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -55,7 +55,7 @@
     margin-right: 11px;
   }
   &-author-icon {
-    margin-left: 3px;
+    margin-left: 6px;
   }
 }
 .menu {

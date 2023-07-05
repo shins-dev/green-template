@@ -1,12 +1,12 @@
 .wraper{
   position: relative;
 }
-.login {
+.log-in {
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(33, 33, 45, 0.7);
-  height: 900px;
+  height: 1000px;
   position: fixed;
   will-change: transform;
   left: 0;
@@ -17,14 +17,28 @@
   transition: all 0.2s ease-out;
  
 }
-
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(33, 33, 45, 0.7);
+  height: 1000px;
+  position: fixed;
+  will-change: transform;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateX(100%);
+  transition: all 0.2s ease-out;
+}
+.is-show{
+  transform: translateX(0);
+}
 .login {
   &-main {
     display: flex;
     gap: 0 30px;
-  }
-  &.is-show{
-    transform: translateX(0);
   }
   &-signin {
     max-width: 400px;
